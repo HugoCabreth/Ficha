@@ -1,0 +1,150 @@
+/*.azul {
+    border: 1px dashed rgb(45, 91, 151);
+}
+
+.roja {
+    border: 1px dashed rgb(168, 21, 21);
+}
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+#contenedor {
+    width: 900px;
+    margin: 0 auto;
+    background: #e9c9c9;
+    overflow: hidden; /* Agrega esto para limpiar el float */
+    background-color: #ccc; /* Cambia el color de fondo a gris */
+}
+
+
+.columna {
+    float: left;
+}
+
+body {
+    background-color: #3a0c0c;
+}
+
+#headerContain {
+    background-color: azure;
+    color: aliceblue;
+}
+
+#reset {
+    display: block;
+    clear: both;
+}
+
+#htitulo {
+    width: 39%;
+    text-align: center;
+}
+
+#navega li a {
+    display: inline-block;
+    margin-right: 10px; /* Ajusta el margen derecho según tus necesidades */
+    text-decoration: none; /* Elimina el subrayado del texto */
+    color: black; /* Color del texto */
+}
+
+#navega {
+    width: 60%;
+    text-align: center;
+}
+
+#navega li {
+    display: inline-block;
+    margin-right: 20px; /* Ajusta el margen derecho según tus necesidades */
+}
+#personal {
+    width: 70%;
+    height: 300px;
+}
+
+#social {
+    width: 29%;
+    height: 300px;
+}
+
+/*----------------------------------------*/
+
+#contfoto {
+    width: 40%;
+    text-align: center;
+}
+
+#foto {
+    width: 100%;
+    text-align: center;
+}
+
+#fototxt {
+    width: 52%;
+    margin-left: 50px; /* Puedes ajustar este valor según tus necesidades */
+}
+
+
+#ficha {
+    background-color: rgb(133, 130, 130);
+}
+
+#creditos {
+    background-color: #e9c9c9;
+    color: rgb(0, 0, 0);
+    text-align: center; /* Centra el texto */
+    clear: both; /* Limpia el float */
+    margin-top: 10px; /* Ajusta el margen superior */
+}
+
+/*--------------------------------------------*/
+.socialButton {
+    box-shadow: 0px 1px 0px 0px #e9c9c9;
+    border-radius: 6px;
+    border: 1px solid #ffaa22;
+    display: inline-block;
+    cursor: pointer;
+    color: #3a0c0c;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    margin: 5px; /* Agrega margen entre los botones */
+}
+
+.Instagram {
+    background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    background-color: #ffab23;
+    color: #3a0c0c;
+    text-shadow: 0px 1px 0px #ffab23;
+}
+
+.Instagram:hover {
+    background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+    background-color: #ffaa22;
+}
+
+.Instagram:hover:active {
+    position: relative;
+}
+
+
+
+.Facebook {
+    background: linear-gradient(to bottom, #3b5998 5%, #264d79 100%);
+    background-color: #3b5998;
+    color: #ffffff;
+    text-shadow: 0px 1px 0px #264d79;
+}
+
+.Facebook:hover {
+    background: linear-gradient(to bottom, #264d79 5%, #3b5998 100%);
+    background-color: #264d79;
+}
+
+.Facebook:hover:active {
+    position: relative;
+}

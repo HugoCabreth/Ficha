@@ -1,0 +1,56 @@
+.azul{
+    border: 1px dashed rgb(45, 91, 151);
+}
+
+.roja{
+    border: 1px dashed rgb(168, 21, 21);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#contenedor{
+    width: 800px;
+    margin: 0 auto;
+    background: #e9c9c9;
+}
+
+.columna{
+    float:left;
+}
+
+#reset{
+    display: block;
+    clear: both;
+}
+
+#htitulo{
+    width: 39%;
+    text-align: center;
+}
+
+#htitulo h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 55px;/*cambiar a unidades em*/
+}
+
+#navega{
+    width: 60%;
+    text-align: center;
+}
+
+#navega li{
+    display:inline-block;
+}
+
+#ficha{
+    width: 70%;
+    height: 300px;
+}
+
+#social{
+    width: 29%;
+    height: 300px;
+}
